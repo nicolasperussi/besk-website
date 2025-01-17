@@ -7,7 +7,7 @@ import Logo from "../../../public/logo-symbol.svg";
 function Contact() {
   const [isLoadingSubmit, setIsLoadingSubmit] = useState(false);
   return (
-    <div className="mb-[120px]">
+    <div>
       <div className="mx-auto max-w-[1140px] pt-[100px] pb-[85px] flex gap-10">
         <div className="flex flex-col gap-[50px] flex-1">
           <div className="h-[199px]">
