@@ -56,7 +56,6 @@ function Hero() {
               nextEl: ".btn-next",
               prevEl: ".btn-prev",
             }}
-            pagination={{ clickable: true }}
             loop={true}
             slidesPerView={1}
             autoplay={{ delay: 3000 }}
