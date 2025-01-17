@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "services-image": "url('/services.webp')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
