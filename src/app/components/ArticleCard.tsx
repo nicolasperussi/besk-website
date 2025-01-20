@@ -2,7 +2,7 @@ import { IArticle } from "@/types/article";
 import Image from "next/image";
 import React from "react";
 
-function Article({ title, image, content }: IArticle) {
+function ArticleCard({ title, image, content }: IArticle) {
   return (
     <div className="border-2 border-black p-5">
       <div className="w-full h-[225px] relative mb-[15px]">
@@ -28,4 +28,4 @@ function Article({ title, image, content }: IArticle) {
   );
 }
 
-export default Article;
+export default ArticleCard;

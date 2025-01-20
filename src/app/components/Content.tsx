@@ -9,7 +9,7 @@ import { Navigation, Pagination } from "swiper/modules";
 
 import articles from "../../../public/articles.json";
 import { IArticle } from "@/types/article";
-import Article from "./Article";
+import ArticleCard from "./ArticleCard";
 
 function Content() {
   return (
@@ -27,7 +27,7 @@ function Content() {
       >
         {articles.map((article: IArticle) => (
           <SwiperSlide key={article.title}>
-            <Article {...article} />
+            <ArticleCard {...article} />
           </SwiperSlide>
         ))}
       </Swiper>
