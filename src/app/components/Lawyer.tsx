@@ -10,8 +10,8 @@ interface LawyerProps {
 
 function Lawyer({ name, contact, description, imgPath }: LawyerProps) {
   return (
-    <div className="flex flex-1 flex-col gap-[20px]">
-      <div className="max-w-[296px] w-full mx-auto aspect-square relative">
+    <div className="flex flex-1 flex-col gap-5">
+      <div className="max-w-72 w-full mx-auto aspect-square relative">
         <Image
           src={imgPath}
           alt={name}
@@ -19,13 +19,14 @@ function Lawyer({ name, contact, description, imgPath }: LawyerProps) {
           className="rounded-full object-cover"
         />
       </div>
-      <div className="flex flex-col">
-        <h1 className="font-medium text-[28px] leading-[38px]">{name}</h1>
-        <span className="text-[18px] leading-[23px]">{contact}</span>
+      <div className="flex flex-col gap-1">
+        <h3>{name}</h3>
+        {/* TODO: Change to anchor tag and redirect to e-mail */}
+        <span className="text-lg">{contact}</span>{" "}
       </div>
-      <div className="flex flex-col gap-[10px]">
+      <div className="flex flex-col gap-2">
         {description.map((desc) => (
-          <p key={desc} className="text-[18px] leading-[23px]">
+          <p key={desc} className="text-lg">
             {desc}
           </p>
         ))}

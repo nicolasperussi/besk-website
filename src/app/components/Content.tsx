@@ -23,8 +23,8 @@ function Content() {
   }
 
   return (
-    <div className="bg-white py-20 px-[90px] flex flex-col gap-[60px]">
-      <h1 className="font-medium text-[70px] leading-[84px]">Conteúdo</h1>
+    <div className="bg-white py-20 px-24 flex flex-col gap-16">
+      <h1 className="font-medium text-7xl">Conteúdo</h1>
       <Swiper
         modules={[Navigation, Pagination]}
         navigation={{
@@ -55,22 +55,20 @@ function Content() {
             />
             {article.content.map((content) => (
               <div className="flex flex-col gap-4">
-                <div className="border-y-2 border-black p-[15px] relative">
-                  <h1 className="text-[32px] leading-[32px] font-medium">
-                    {content.subtitle}
-                  </h1>
+                <div className="border-y-2 border-black p-4 relative">
+                  <h1 className="text-8 font-medium">{content.subtitle}</h1>
                 </div>
                 <div className="flex flex-col gap-2">
                   {content.text.map((text) => (
-                    <p className="text-[18px] indent-8 leading-6">{text}</p>
+                    <p className="text-lg indent-8 leading-6">{text}</p>
                   ))}
                   {content.source && (
-                    <p className="text-[18px] mt-4">
+                    <p className="text-lg mt-4">
                       <span className="font-medium">Fonte: </span>
                       <a
                         href={content.source}
                         target="_blank"
-                        className="hover:text-[#B3C5D9] hover:underline transition-all duration-150"
+                        className="hover:text-[#667baa] hover:underline transition-all duration-150"
                       >
                         {content.source}
                       </a>

@@ -45,7 +45,7 @@ function Modal({ children, isOpen, onClose }: ModalProps) {
       className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
     >
       <div
-        className="bg-white p-4 max-w-[1126px] w-[calc(100%-50px)] max-h-[90vh] rounded shadow-lg animate-modal-in overflow-y-auto"
+        className="bg-white p-4 max-w-6xl w-[calc(100%-50px)] max-h-[90vh] rounded shadow-lg animate-modal-in overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {children}

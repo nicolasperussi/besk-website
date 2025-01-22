@@ -7,14 +7,25 @@ function Header() {
   return (
     <header className="px-5">
       <div className="py-5 pl-1 pr-4 border-b-2 border-black flex justify-between align-center">
-        <div className="w-[200px]">
+        <div className="w-52">
           <Image priority src={Logo} alt="Bergstein e Skorkowski Advogados" />
         </div>
-        <div className="flex pr-4 gap-20 font-medium text-[24px] items-center">
-          <Link href="#">Quem Somos</Link>
-          <Link href="#">Áreas de Atuação</Link>
-          <Link href="#">Conteúdo</Link>
-          <Link href="#">Contato</Link>
+        <div className="flex pr-4 gap-20 font-medium items-center">
+          <Link href="#">
+            <h5>Quem Somos</h5>
+          </Link>
+          <Link href="#">
+            <h5>Áreas de Atuação</h5>
+          </Link>
+          <Link href="#">
+            <h5>Advogados</h5>
+          </Link>
+          <Link href="#">
+            <h5>Conteúdo</h5>
+          </Link>
+          <Link href="#">
+            <h5>Contato</h5>
+          </Link>
         </div>
       </div>
     </header>

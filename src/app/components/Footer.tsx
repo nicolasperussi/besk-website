@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex items-center justify-center p-8 text-[20px] text-white bg-black">
+    <div className="flex items-center justify-center p-8 text-xl text-white bg-black">
       <p>
         Desenvolvido por{" "}
         <span className="hover:text-[#b3c5d9] transition-colors duration-300">

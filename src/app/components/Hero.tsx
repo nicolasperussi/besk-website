@@ -15,9 +15,9 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <div className="mb-[120px]">
-      <div className="mx-auto max-w-[1140px]">
-        <div className="p-[60px] text-[22px] leading-[28px] flex flex-col gap-4">
+    <div className="mb-32">
+      <div className="mx-auto max-w-6xl">
+        <div className="p-16 text-xl flex flex-col gap-4">
           <p>
             Bergstein Skorkowski Advogados é um escritório com ampla experiência
             no Direito aplicado à área da saúde, pioneiro na atuação da defesa

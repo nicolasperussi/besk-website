@@ -12,8 +12,7 @@ export default {
         "services-image": "url('/services.webp')",
       },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--primary)",
       },
       keyframes: {
         "modal-in": {
