@@ -33,11 +33,13 @@ const lawyers = [
 
 function Lawyers() {
   return (
-    <div className="px-16 pt-12 pb-16 flex flex-col gap-12">
+    <div className="px-8 sm:px-16 py-12 sm:py-12 flex flex-col gap-12">
       <div className="border-y-2 border-black">
-        <h1 className="text-7xl ml-8 my-4">Advogados</h1>
+        <h1 className="text-7xl text-center md:text-left md:ml-4 lg:ml-8 my-4">
+          Advogados
+        </h1>
       </div>
-      <div className="flex justify-around px-8 gap-20">
+      <div className="gap-12 xl:gap-16 2xl:gap-20 2xl:px-8 flex flex-row flex-wrap flex-1 relative justify-around">
         {lawyers.map((law) => (
           <Lawyer {...law} key={law.name} />
         ))}

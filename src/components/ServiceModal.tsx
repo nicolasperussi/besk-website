@@ -11,13 +11,13 @@ interface IServiceModalProps {
 
 function ServiceModal({ onClose, title, image, texts }: IServiceModalProps) {
   return (
-    <div className="flex gap-6 p-3">
-      <div className="h-[550px] w-[800px] flex-shrink relative">
+    <div className="flex flex-col-reverse lg:flex-row gap-8 p-3">
+      <div className="w-full h-96 lg:h-[550px] lg:w-[800px] flex-shrink relative">
         <Image
           src={`/services/${image}.webp`}
           alt={title}
           fill
-          className="object-cover"
+          className="object-cover rounded lg:rounded-none"
         />
       </div>
       <div className="flex flex-col gap-8">

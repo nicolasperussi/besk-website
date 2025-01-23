@@ -10,7 +10,7 @@ interface LawyerProps {
 
 function Lawyer({ name, contact, description, imgPath }: LawyerProps) {
   return (
-    <div className="flex flex-1 flex-col gap-5">
+    <div className="flex flex-col gap-5 max-w-full lg:max-w-96 xl:max-w-full xl:flex-1">
       <div className="max-w-72 w-full mx-auto aspect-square relative">
         <Image
           src={imgPath}

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../public/logo.svg";
+import Logo from "../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ function Header() {
         <div className="w-52">
           <Image priority src={Logo} alt="Bergstein e Skorkowski Advogados" />
         </div>
-        <div className="flex pr-4 gap-20 font-medium items-center">
+        <div className="hidden xl:flex pr-4 gap-20 font-medium items-center">
           <Link href="#">
             <h5>Quem Somos</h5>
           </Link>

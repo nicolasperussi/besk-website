@@ -26,7 +26,7 @@ function Services() {
   }
 
   return (
-    <div className="py-48 px-24 bg-services-image bg-cover flex flex-col gap-20">
+    <div className="py-24 px-8 sm:py-48 sm:px-16 bg-services-image bg-cover flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h1 className="uppercase text-7xl text-white font-medium">
           Áreas de Atuação

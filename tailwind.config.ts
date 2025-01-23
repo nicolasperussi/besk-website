@@ -13,6 +13,7 @@ export default {
       },
       colors: {
         primary: "var(--primary)",
+        secondary: "var(--secondary)",
       },
       keyframes: {
         "modal-in": {

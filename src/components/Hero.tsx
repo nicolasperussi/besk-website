@@ -7,17 +7,17 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 
-import Banner1 from "../../../public/banner-1.webp";
-import Banner2 from "../../../public/banner-2.webp";
-import Banner3 from "../../../public/banner-3.webp";
+import Banner1 from "../../public/banner-1.webp";
+import Banner2 from "../../public/banner-2.webp";
+import Banner3 from "../../public/banner-3.webp";
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <div className="mb-32">
-      <div className="mx-auto max-w-6xl">
-        <div className="p-16 text-xl flex flex-col gap-4">
+    <div>
+      <div className="mx-auto p-8 sm:p-16 max-w-6xl flex flex-col gap-8">
+        <div className="text-xl flex flex-col gap-4">
           <p>
             Bergstein Skorkowski Advogados é um escritório com ampla experiência
             no Direito aplicado à área da saúde, pioneiro na atuação da defesa
@@ -49,6 +49,7 @@ function Hero() {
             atualizada.
           </p>
         </div>
+        {/* TODO: align banner to text on smaller screens */}
         <div className="w-full">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
@@ -59,7 +60,7 @@ function Hero() {
             loop={true}
             slidesPerView={1}
             autoplay={{ delay: 3000 }}
-            className="h-[530px] relative"
+            className="relative aspect-[1120/530]"
           >
             <SwiperSlide className="z-0">
               <Image
@@ -87,14 +88,12 @@ function Hero() {
             </SwiperSlide>
 
             <FaChevronLeft
-              size={20}
-              className="btn-prev absolute top-1/2 left-4 transform -translate-y-1/2 z-10 cursor-pointer"
+              className="btn-prev size-4 sm:size-5 absolute top-1/2 left-4 transform -translate-y-1/2 z-10 cursor-pointer"
               color="white"
               opacity={0.8}
             />
             <FaChevronRight
-              size={20}
-              className="btn-next absolute top-1/2 right-4 transform -translate-y-1/2 z-10 cursor-pointer"
+              className="btn-next size-4 sm:size-5 absolute top-1/2 right-4 transform -translate-y-1/2 z-10 cursor-pointer"
               color="white"
               opacity={0.8}
             />
