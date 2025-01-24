@@ -1,6 +1,40 @@
 [
   {
     "title": "Newsletter Jan/2025",
+    "image": "breast-cancer.webp",
+    "content": [
+      {
+        "title": "Opinião",
+        "subtitle": "Neurodados e o Direito",
+        "text": [
+          "Neurodados são informações individuais obtidas a partir de atividades neurais de cada indivíduo. Apesar de serem juridicamente considerados como dados pessoais, são dotados de características ainda mais personalíssimas, uma vez que sua natureza é altamente sensível.",
+          "Os desafios jurídicos relacionados aos neurodados decorrem justamente do fato de que sua utilização indevida pode gerar manipulações capazes de invadir a privacidade das pessoas em sua esfera mais íntima, como, por exemplo, o uso da tecnologia com o potencial de acessar, monitorar ou modificar o cérebro humano.",
+          "Nessa perspectiva, surge a ciência do neurodireito, cujo objetivo é justamente regulamentar as regras fundamentais para a proteção e preservação dos dados provenientes do cérebro humano. Alguns dos valores elementares do neurodireito são (i) direito à identidade pessoal; (ii) direito à privacidade mental; (iii) direito à proteção contra vieses algorítmicos e (iv) direito à agência – controle sobre as decisões pessoais, livres de qualquer manipulação tecnológica externa.",
+          "No Brasil, hoje, tramitam alguns projetos de Lei para regulamentar a questão, merecendo destaque aquele de nº 29/2023, que pretende alterar o artigo 5º da Constituição Federal para assegurar que o desenvolvimento científico e tecnológico irá preservar a integridade mental e a transparência algorítmica."
+        ]
+      },
+      {
+        "title": "Saúde nos Tribunais",
+        "subtitle": "Médica é impedida de propagar conteúdo sem respaldo científico",
+        "text": [
+          "Em decisão proferida no Processo nº 0889202-21.2024.8.14.0301, a juíza Lailce Ana Marron da Silva Cardoso, da 9ª vara Cível e Empresarial de Belém/PA, concedeu liminar para impedir que médica siga propagando conteúdo sem respaldo científico, como afirmar que “câncer de mama não existe”.",
+          "A decisão determinou a retirada imediata das publicações promovidas pela profissional de suas redes sociais, bem como sua abstenção de anunciar qualquer cura ou método alternativo de tratamento e de anunciar que a mamografia é prejudicial à saúde."
+        ],
+        "source": "https://www.migalhas.com.br/quentes/419229/juiza-proibe-medica-de-divulgar-informacao-falsa-sobre-cancer-de-mama"
+      },
+      {
+        "title": "Alerta Legal",
+        "subtitle": "Reprodução assistida e cessão temporária de útero",
+        "text": [
+          "O Conselho Regional de Medicina do Estado de São Paulo publicou a Resolução nº 382/2024, que “Estabelece os requisitos para aprovação da utilização de técnicas de reprodução assistida em caso de cessão temporária de útero pela Câmara de Reprodução Humana e Técnicas de Reprodução Assistida do Conselho Regional de Medicina do Estado de São Paulo.”",
+          "A norma, elaborada com base na Resolução CFM nº 2.320/2022, refere os documentos necessários à utilização da técnica e indica a vedação da multiplicidade de protocolos envolvendo a mesma cedente."
+        ],
+        "source": "https://cremesp.org.br/library/modulos/legislacao/versao_impressao.php?id=21781&versao=integra&&utm_source=akna&utm_medium=email&utm_campaign=31-10-2024-LEGISLA-AO-Atualizacao"
+      }
+    ]
+  },
+  {
+    "title": "Newsletter Dez/2025",
     "image": "telemedicina.webp",
     "content": [
       {
@@ -16,7 +50,7 @@
       },
       {
         "title": "Saúde nos Tribunais",
-        "subtitle": "",
+        "subtitle": "Dever de informação em cirurgias eletivas e não eletivas",
         "text": [
           "A Quarta Turma do Superior Tribunal de Justiça (STJ), em decisão proferida em janeiro de 2024 (RESP 2097450), abordou as diferentes consequências do dever de informação em cirurgias eletivas e não eletivas.",
           "No caso em questão, a mãe de uma paciente que faleceu durante uma cirurgia de adenoide e amígdalas alegou falha no dever de informação, após a morte supostamente causada por choque anafilático decorrente da anestesia. O Tribunal de Justiça do Rio de Janeiro (TJRJ) afastou a responsabilidade dos médicos, considerando que não houve negligência, já que os exames pré-operatórios não podem prever todos os riscos possíveis associados a uma cirurgia.",
@@ -25,7 +59,7 @@
       },
       {
         "title": "Alerta Legal",
-        "subtitle": "",
+        "subtitle": "Resolução da medicina do sono pelo CFM",
         "text": [
           "Em 12/04/2024 foi publicada a resolução n° 2379/2024 do Conselho Regional de Medicina (CRM) estabelecendo diretrizes sobre a prática de medicina do sono no Brasil. O documento foca no estudo, diagnóstico, tratamento e prevenção das doenças do sono, destacando que apenas médicos podem realizar diagnósticos e indicar tratamentos.",
           "Os médicos que atuam na medicina do sono devem estar aptos a realizar diagnósticos precisos, utilizando métodos como polissonografia, actigrafia e testes de sonolência. Esses exames exigem um conhecimento aprofundado da fisiologia do sono, permitindo a identificação de mais de 60 distúrbios a ele relacionados. O diagnóstico é um processo que envolve anamnese detalhada, exame físico e a interpretação de exames complementares, sendo sempre de responsabilidade do médico.",
@@ -37,12 +71,12 @@
     ]
   },
   {
-    "title": "Newsletter Dez/2024",
+    "title": "Newsletter Nov/2024",
     "image": "consentimento.webp",
     "content": [
       {
         "title": "Opinião",
-        "subtitle": "A importância do termo de consentimento na relação médico-paciente",
+        "subtitle": "Cuidados com o Termo de Consentimento (TCLE)",
         "text": [
           "Termos de consentimento são documentos que têm a finalidade de tornar concreto a parte do dever de informação que compete aos médicos. Um Termo de Consentimento Livre e Esclarecido (TCLE) deve conter cuidados, duração, complicações, possíveis riscos, adversidades, benefícios, objetivos esperados, justificativas e outros pontos importantes que esclareçam todas as dúvidas, devendo ser sempre específico para cada exame, procedimento ou tratamento. Sua redação deve ser clara, direta e objetiva.",
           "Apesar de o consentimento poder ser, na maioria dos procedimentos e tratamentos, verbal, a prática – em razão dos processos éticos e judiciais – acabou por trazer a obrigatoriedade implícita do consentimento via termo, o que é recomendado também pelo Conselho Federal de Medicina (CFM), especificamente em razão da necessidade de prova documental da obtenção do consentimento por parte do médico.",
@@ -52,7 +86,7 @@
       },
       {
         "title": "Saúde nos Tribunais",
-        "subtitle": "",
+        "subtitle": "Responsabilidade civil do agente público em ações de erro médico",
         "text": [
           "O Supremo Tribunal Federal, ao julgar o Recurso Extraordinário (RE) 1027633, firmou entendimento de que as ações por danos causados por agente público devem ser ajuizadas contra o Estado ou pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para responder pelo processo o autor do ato (profissional da saúde, nos casos que nos interessam), assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
           "Como consequência, as ações movidas por pacientes em razão de suposto erro médico em face de profissional considerado agente público, devem ser ajuizadas contra o Estado ou pessoa jurídica prestadora do serviço, e não contra o médico.",
@@ -62,7 +96,7 @@
       },
       {
         "title": "Alerta Legal",
-        "subtitle": "",
+        "subtitle": "CFM atualiza regras sobre publicidade médica",
         "text": [
           "O Conselho Federal de Medicina (CFM) atualizou suas regras sobre publicidade médica por meio da Resolução CFM nº 2.336/2023.",
           "A resolução traz permissões importantes para os médicos, como a divulgação do seu trabalho nas redes sociais; a promoção de equipamentos disponíveis nas clínicas e a utilização de imagens de pacientes, desde que com fins educativos, o famoso “antes e depois”."
@@ -71,7 +105,7 @@
     ]
   },
   {
-    "title": "Newsletter Nov/2024",
+    "title": "Newsletter Out/2024",
     "image": "lgpd.webp",
     "content": [
       {
@@ -85,7 +119,7 @@
       },
       {
         "title": "Saúde nos Tribunais",
-        "subtitle": "",
+        "subtitle": "A recusa de transfusão de sangue por Testemunhas de Jeová",
         "text": [
           "O Supremo Tribunal Federal, ao julgar conjuntamente os Recursos Extraordinários (REs) 979742 e 1212272, firmou entendimento de que as pessoas adeptas à religião Testemunhas de Jeová, quando maiores e capazes, têm o direito de recusar procedimento médico que envolva transfusão de sangue.",
           "Como consequência, em questões que dizem respeito ao seu direito à vida e à saúde, podem escolher procedimentos alternativos.",
@@ -95,7 +129,7 @@
       },
       {
         "title": "Alerta Legal",
-        "subtitle": "",
+        "subtitle": "Regulação de implantes hormonais manipulados pela ANVISA",
         "text": [
           "A Agência Nacional de Vigilância Sanitária (Anvisa) suspendeu, em todas as farmácias de manipulação do Brasil, a comercialização, propaganda e o uso de implantes hormonais manipulados – conhecidos como “chips da beleza”. A suspensão está baseada nas normas de boas práticas de manipulação, conforme a RDC 67/2007.",
           "Essa decisão confirma o entendimento antes manifestado pelo Conselho Federal de Medicina (CFM), cuja Resolução nº 2.333/23 veda a prescrição médica de esteroides androgênicos e anabolizantes (EAA) para fins estéticos e de ganho de massa muscular ou melhora de desempenho esportivo."
