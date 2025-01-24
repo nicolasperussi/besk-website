@@ -23,7 +23,10 @@ function Content() {
   }
 
   return (
-    <div className="bg-white py-8 px-8 sm:px-16 flex flex-col gap-8">
+    <div
+      id="conteudo"
+      className="bg-white py-8 px-8 sm:px-16 flex flex-col gap-8"
+    >
       <h1 className="font-medium text-7xl">Conteúdo</h1>
       <div className="relative flex flex-col items-center mb-12">
         <Swiper

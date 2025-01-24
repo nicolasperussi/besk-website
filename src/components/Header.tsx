@@ -11,19 +11,19 @@ function Header() {
           <Image priority src={Logo} alt="Bergstein e Skorkowski Advogados" />
         </div>
         <div className="hidden xl:flex pr-4 gap-20 font-medium items-center">
-          <Link href="#">
+          <Link href="#quem-somos">
             <h5>Quem Somos</h5>
           </Link>
-          <Link href="#">
+          <Link href="#areas-de-atuacao">
             <h5>Áreas de Atuação</h5>
           </Link>
-          <Link href="#">
+          <Link href="#advogados">
             <h5>Advogados</h5>
           </Link>
-          <Link href="#">
+          <Link href="#conteudo">
             <h5>Conteúdo</h5>
           </Link>
-          <Link href="#">
+          <Link href="#contato">
             <h5>Contato</h5>
           </Link>
         </div>

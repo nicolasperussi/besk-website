@@ -33,7 +33,10 @@ const lawyers = [
 
 function Lawyers() {
   return (
-    <div className="px-8 sm:px-16 py-12 sm:py-12 flex flex-col gap-12">
+    <div
+      id="advogados"
+      className="px-8 sm:px-16 py-12 sm:py-12 flex flex-col gap-12"
+    >
       <div className="border-y-2 border-black">
         <h1 className="text-7xl text-center md:text-left md:ml-4 lg:ml-8 my-4">
           Advogados

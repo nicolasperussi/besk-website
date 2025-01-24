@@ -1,9 +1,8 @@
 "use client";
 import React, { useState } from "react";
 
-import { TfiPlus, TfiClose } from "react-icons/tfi";
+import { TfiPlus } from "react-icons/tfi";
 import Modal from "./Modal";
-import Image from "next/image";
 import ServiceModal from "./ServiceModal";
 
 function Services() {
@@ -26,7 +25,10 @@ function Services() {
   }
 
   return (
-    <div className="py-24 px-8 sm:py-48 sm:px-16 bg-services-image bg-cover flex flex-col gap-20">
+    <div
+      id="areas-de-atuacao"
+      className="py-24 px-8 sm:py-48 sm:px-16 bg-services-image bg-cover flex flex-col gap-20"
+    >
       <div className="flex flex-col gap-5">
         <h1 className="uppercase text-7xl text-white font-medium">
           Áreas de Atuação

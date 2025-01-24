@@ -7,7 +7,10 @@ import Logo from "../../public/logo-symbol.svg";
 function Contact() {
   const [isLoadingSubmit, setIsLoadingSubmit] = useState(false);
   return (
-    <div className="mx-auto max-w-6xl py-16 px-8 sm:p-16 flex flex-col-reverse md:flex-row gap-16">
+    <div
+      id="contato"
+      className="mx-auto max-w-6xl py-16 px-8 sm:p-16 flex flex-col-reverse md:flex-row gap-16"
+    >
       <div className="flex flex-col gap-8 flex-1">
         <div className="">
           <Image
