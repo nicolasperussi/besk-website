@@ -49,7 +49,7 @@ function Content() {
               slidesPerView: 3,
             },
           }}
-          className="w-full sm:w-10/12 lg:w-11/12"
+          className="w-full sm:w-[80%] lg:w-[90%]"
         >
           {articles.map((article: IArticle) => (
             <SwiperSlide key={article.image}>
