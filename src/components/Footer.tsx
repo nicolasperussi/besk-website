@@ -26,12 +26,6 @@ function Footer() {
           >
             Termos de Uso
           </a>
-          <a
-            className="hover:text-[#b3c5d9] transition-colors duration-300 cursor-pointer hover:underline"
-            href="/politica-de-cookies"
-          >
-            Política de Cookies
-          </a>
         </div>
       </div>
     </div>
