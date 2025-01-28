@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
+import CookieConsent from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   title: "Bergstein Skorkowski Advogados",
@@ -26,7 +30,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={`${larken.variable} antialiased`}>{children}</body>
+      <body className={`${larken.variable} antialiased`}>
+        <Header />
+        {children}
+        <Contact />
+        <Footer />
+        <CookieConsent />
+      </body>
     </html>
   );
 }

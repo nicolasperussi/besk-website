@@ -65,8 +65,12 @@ body {
   p,
   a,
   li {
-    @apply font-light;
+    @apply font-light text-xl;
     line-height: 150% !important;
+  }
+
+  strong {
+    @apply font-medium;
   }
 
   .small {
