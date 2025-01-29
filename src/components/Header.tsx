@@ -10,10 +10,16 @@ function Header() {
 
   function openMenu() {
     setIsOpen(true);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    setTimeout(() => {
+      document.body.style.overflow = "hidden";
+    }, 500); // Wait for animation to complete
   }
 
   function closeMenu() {
     setIsOpen(false);
+    document.body.style.overflow = "";
   }
 
   return (
