@@ -22,7 +22,7 @@ function Lawyer({ name, contact, description, imgPath }: LawyerProps) {
       <div className="flex flex-col gap-1">
         <h3>{name}</h3>
         {/* TODO: Change to anchor tag and redirect to e-mail */}
-        <span className="text-lg">{contact}</span>{" "}
+        {/* <span className="text-lg">{contact}</span>{" "} */}
       </div>
       <div className="flex flex-col gap-2">
         {description.map((desc) => (

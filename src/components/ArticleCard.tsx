@@ -25,7 +25,7 @@ function ArticleCard({ article, openArticle }: IArticleCard) {
       <div className="border-y-2 border-black py-5 h-72">
         <ul className="text-lg ml-8 list-disc">
           {article.content.map((item) => (
-            <li>
+            <li key={item.title}>
               <strong>{item.title}:</strong> {item.subtitle}
             </li>
           ))}
