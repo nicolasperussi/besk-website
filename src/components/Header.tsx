@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,6 +7,18 @@ import { FaBars, FaXmark } from "react-icons/fa6";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      closeMenu();
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   function openMenu() {
     setIsOpen(true);
