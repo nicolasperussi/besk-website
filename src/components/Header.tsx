@@ -9,6 +9,8 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    // TODO: fix the resize on Safari
+
     const handleResize = () => {
       closeMenu();
     };
@@ -41,7 +43,7 @@ function Header() {
           <Image priority src={Logo} alt="Bergstein e Skorkowski Advogados" />
         </Link>
         <div
-          className={`w-screen h-screen absolute ${
+          className={`w-screen h-screen fixed ${
             isOpen ? "left-0" : "-left-full"
           } top-0 z-50 bg-primary flex flex-col justify-center pr-4 gap-20 font-medium items-center transition-all duration-300 xl:flex xl:w-auto xl:h-auto xl:relative xl:flex-row xl:left-0`}
         >
