@@ -39,7 +39,7 @@ function Contact() {
               Pacaembu/SP - CEP 01236-010
             </h1>
           </Link>
-          <h1 className="!font-medium !text-xl">+55 (11) 3873-3785</h1>
+          <h1 className="!font-medium !text-xl">+55 (11) 3873-7385</h1>
           <a
             href="tel:11982457385"
             className="hover:text-white transition-all duration-300 !font-medium !text-xl"
